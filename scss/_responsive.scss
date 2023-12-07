@@ -1,0 +1,298 @@
+/*index responsivo*/
+@media (max-width: 992px) {
+    .tank-main-banner h3.gallery4-head {
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .tank-main-banner .banner-info {
+        padding-top: 140px;
+    }
+    .tank-main-banner h3.banner-text {
+        font-size: 60px;
+        line-height: 75px;
+    }
+    .tank-main-banner .banner-top-inner-page{
+        min-height: 180px;
+    }
+}
+
+@media(max-width:900px) {
+    .tank-main-banner h3.banner-text {
+        font-size: 55px;
+        line-height: 70px;
+    }
+    .tank-main-banner .banner-top-inner-page {
+        min-height: 150px;
+    }
+}
+
+@media(max-width:600px)  {
+    .tank-main-banner h3.gallery4-head {
+        margin-bottom: 20px;
+    }
+    .tank-main-banner .banner-view{
+        min-height: 550px;
+    }
+}
+
+@media(max-width:569px) {
+    .tank-main-banner h3.gallery4-head {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    .tank-main-banner h3.banner-text {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .tank-main-banner .banner-view {
+        min-height: 420px;
+    }
+    .tank-main-banner .banner-top-inner-page{
+        min-height: 120px;
+    }
+}
+
+@media(max-width:440px) {
+    .tank-main-banner h3.banner-text {
+        font-size: 40px;
+        line-height: 50px;
+    }
+} 
+
+@media(max-width: 1280px){
+    .tank-feature-3 .three-grids-columns h4 {
+        padding-top: 20px;
+    }
+}
+
+@media(max-width: 900px) {
+    .tank-feature-3 .three-grids-columns h4 {
+        padding-top: 13px;
+    }
+}
+
+@media(max-width: 768px) {
+    .tank-feature-3 .grid-column {
+        grid-template-columns: 1fr;
+        grid-gap: 35px;
+    }
+    .tank-feature-3 .three-grids-columns h4 {
+        padding-top:  7px;
+    }
+}
+
+@media(max-width: 768px) {
+    .tank-feature-3 .three-grids-columns h4 {
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 320px) {
+    .tank-feature-3 .three-grids-columns h4 {
+        font-size: 20px;
+        line-height: 25px;
+        
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 10%;
+    }
+    .carousel-indicators {
+        bottom: 20px;
+    }
+    .carousel-indicators button {
+        width: 8px;
+        height: 8px;
+        margin: 5px 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .box-wrap {
+        margin: 3%;
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .box-wrap {
+        margin: 5%;
+        padding: 20px;
+    }
+
+    .box-wrap h4 a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .conoce-12 .form-12-content {
+        padding: 3em 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .conoce-12 .form-12 {
+        padding: 30px 0px;
+    }
+}
+
+/*Vehiculos responsivo*/
+@media screen and (max-width: 768px) {
+    .detallesauto ul li {
+        width: 30%; 
+        font-size: 16px; 
+    }
+
+    .item img {
+        width: 100%; 
+        height: auto;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .detallesauto ul li {
+        width: 50%; 
+        font-size: 14px; 
+    }
+
+    .item {
+        margin: 5px; 
+    }
+
+    .item img {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+}
+
+
+@media (max-width: 1080px) {
+    .container-items {
+        font-size: 19px;
+        margin: 5%;
+    }
+}
+
+/*Mas de Wolf responsivo*/
+@media (max-width: 1080px) {
+    .tank-specifications-9 .grids-speci p {
+        font-size: 19px;
+    }
+    .tank-specifications-9 .main-t {
+        padding: 3rem 0;
+    }
+    .main-cont-wthree-fea h2{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 991px) {
+    .tank-specifications-9 .spec-2 {
+        background: #363636;
+        padding: 30px 30px;
+        border-radius: 4px;
+    }
+    .tank-specifications-9 .grids-speci1 span.fa {
+        margin-bottom: 10px;
+    }
+    .main-cont-wthree-fea h2{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 800px) {
+    .tank-specifications-9 .grids-speci p {
+        font-size: 18px;
+    } 
+    .main-cont-wthree-fea h2{
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (max-width: 384px) {
+    .tank-specifications-9 .grids-speci {
+        padding: 10px 10px;
+    }
+    .tank-specifications-9 .spec-2 {
+        padding: 10px 10px;
+        
+    }
+    .tank-specifications-9 h3.title-spe {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .tank-specifications-9 .grids-speci1 p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 7px;
+    }
+}
+
+/*Servicios responsivo*/
+@media (max-width: 768px) {
+    .table-responsive {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+    
+    .table-responsive table {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .servicetext {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .servicetext {
+        width: 100%;
+    }
+}
+
+/*subir responsivo*/
+
+@media screen and (max-width: 767px) {
+    .subir {
+        display: block;
+        height: 50px;
+        width: 50px;
+        background-color: rgba(7, 10, 12, 0.72);
+        color: #ff8800;
+        position: fixed;
+        right: 20px;
+        bottom: 20px; 
+        text-align: center;
+        font-size: 40px;
+        line-height: 50px;
+        border-radius: 35%;
+        text-shadow: 2px 2px 5px #333;
+        border: 2px solid #ddd;
+        z-index: 999; 
+    }
+}
+
+/*footer responsivo*/
+@media (max-width: 880px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}  

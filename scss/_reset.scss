@@ -1,0 +1,22 @@
+body,
+html {
+    background: var(--bg-color)!important;
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Franklin'
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --theme-color:#dab200;
+    --secondary-color:#ff8800;
+    --opposite-color:#ff8800;
+    --text-color:#dadada;
+    --title-color:#ffffff;
+    --white-color:#ffffff;
+    --light-bg-color:#f6f6f6;
+    --bg-color:#1c1d21;
+}
